@@ -1,6 +1,6 @@
 # xdqin_web_data
 
-Companion data and code for the tech blog at [xdqin.com](https://xdqin.com/blog/tech).
+Companion data and code for the blogs at [xdqin.com](https://xdqin.com/blog/tech).
 
 This repository holds the datasets and analysis scripts behind individual blog
 posts, kept separate from the website source so the raw data and code can be
