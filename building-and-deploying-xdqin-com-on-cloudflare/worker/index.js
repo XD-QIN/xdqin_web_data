@@ -249,7 +249,7 @@ export default {
       const body = [
         '# Security policy for xdqin.com — https://www.rfc-editor.org/info/rfc9116',
         '',
-        'Contact: https://www.linkedin.com/in/xudong-qin',
+        'Contact: https://example.com/security-contact',
         `Expires: ${expires}`,
         'Preferred-Languages: en, zh',
         'Canonical: https://xdqin.com/.well-known/security.txt',
