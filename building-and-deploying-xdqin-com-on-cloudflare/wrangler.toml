@@ -1,0 +1,55 @@
+# Cloudflare Workers (Static Assets) configuration.
+# Serves the prebuilt static site in ./dist and runs a small Worker for the
+# first-party page-view counter at /api/views (backed by D1). Deploy: npx wrangler deploy
+# (The _headers file emitted into ./dist is honored for response headers.)
+name = "xdqin"
+main = "worker/index.js"
+compatibility_date = "2025-06-01"
+
+# Don't publish on the auto-generated *.workers.dev subdomain — the site is
+# only served from the custom domain (xdqin.com).
+workers_dev = false
+
+[assets]
+directory = "./dist"
+# Bound so the Worker can fall back to serving static assets for non-/api routes.
+binding = "ASSETS"
+
+# D1 database for the page-view counts. Create it once, then paste the printed id:
+#   npx wrangler d1 create views
+#   npx wrangler d1 execute views --remote --file=./migrations/0001_init.sql
+# Optional (recommended): a private salt for the dedup hash:
+#   npx wrangler secret put VIEW_SALT
+[[d1_databases]]
+binding = "DB"
+database_name = "views"
+database_id = "<paste-your-d1-database-id-here>"
+
+# Daily cleanup of the short-lived dedup table (keeps only the current UTC day).
+[triggers]
+crons = ["0 4 * * *"]
+
+# Rate limits for /api/views (Workers Rate Limiting API), so the public endpoint
+# can't be used to burn D1's daily quota. Both bindings are optional — the Worker
+# skips a check if its binding is absent, so local dev still works. namespace_id is
+# just a private label (any number); period must be 10 or 60. The limiters are
+# best-effort and counted per Cloudflare location.
+# Docs: https://developers.cloudflare.com/workers/runtime-apis/bindings/rate-limit/
+
+# Per-client cap (keyed by IPv4 address or IPv6 /64). 60 req / 60s is far above
+# normal browsing but stops a single client from hammering the counter.
+[[unsafe.bindings]]
+name = "RATE_LIMITER"
+type = "ratelimit"
+namespace_id = "1001"
+simple = { limit = 60, period = 60 }
+
+# Whole-endpoint backstop, so a flood spread across many IPs (e.g. a botnet or an
+# IPv6 range) still can't run up D1 without bound. Set well above real traffic; if
+# it ever trips for legit visitors they simply don't see the counter (the page is
+# unaffected).
+[[unsafe.bindings]]
+name = "GLOBAL_LIMITER"
+type = "ratelimit"
+namespace_id = "1002"
+simple = { limit = 300, period = 60 }

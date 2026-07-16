@@ -9,6 +9,18 @@ gets its own folder, named after the post's URL slug.
 
 ## Contents
 
+#### How I Built and Deployed My Photography Website
+
+Folder: [`building-and-deploying-xdqin-com-on-cloudflare/`](building-and-deploying-xdqin-com-on-cloudflare)
+
+Code for the post **[How I Built and Deployed My Photography Website: Astro on
+Cloudflare Workers](https://xdqin.com/blog/tech/building-and-deploying-xdqin-com-on-cloudflare)**,
+which deploys the static [astro-photo-folio](https://github.com/XD-QIN/astro-photo-folio)
+template to Cloudflare Workers and adds a first-party, D1-backed page-view counter.
+Includes the Worker (`worker/index.js`), the D1 schema (`migrations/0001_init.sql`),
+and the Wrangler config (`wrangler.toml`). The `database_id` in `wrangler.toml` is a
+placeholder — create your own D1 database and paste its id.
+
 #### Who Is Behind My Blocked Spam Domains?
 
 Folder: [`who-is-behind-my-blocked-spam-domains/`](who-is-behind-my-blocked-spam-domains)
