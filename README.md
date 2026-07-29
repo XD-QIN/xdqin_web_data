@@ -33,16 +33,17 @@ which looks up the registration record of more than a thousand blocked spam
 domains via the Registration Data Access Protocol (RDAP) and clusters them by
 registrar, registration date, top-level domain, and nameserver.
 
-#### Building a Film-Look Preset
+#### Building Film-Look Lightroom Presets
 
 Folder: [`building-a-film-look-preset-colour-science/`](building-a-film-look-preset-colour-science)
 
-Presets and code for the post **[Building a Film-Look Preset: The Colour Science,
-and How to Test It](https://xdqin.com/blog/photography/building-a-film-look-preset-colour-science)**,
-which measures the colour of three films frame by frame and builds camera presets
-against those numbers. Includes **four ready-to-download presets** (`presets/*.xmp`
-— Autumn Sonata, Green Ray 1986, Hero 2002, Pierrot le Fou) and `make_proxy.py`,
-which builds the neutral proxy images the testing harness compares against.
+Presets and code for the post **[Building Film-Look Lightroom Presets: The Colour
+Science, and How to Test It](https://xdqin.com/blog/photography/building-a-film-look-preset-colour-science)**,
+which measures the colour of four films frame by frame and builds presets against
+those numbers. Includes **four ready-to-download presets** (`presets/*.xmp` — Autumn
+Sonata, Green Ray 1986, Hero 2002, Pierrot le Fou) and `make_proxy.py`, which builds
+the neutral proxy images the testing harness compares against. Independent work, not
+affiliated with Adobe Inc.; see the folder's README for the full disclaimer.
 
 
 ## License
