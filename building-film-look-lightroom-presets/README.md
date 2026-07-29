@@ -2,7 +2,7 @@
 
 Presets and code for the post **[Building Film-Look Lightroom Presets: The Colour
 Science, and How to Test
-It](https://xdqin.com/blog/photography/building-a-film-look-preset-colour-science)**.
+It](https://xdqin.com/blog/photography/building-film-look-lightroom-presets)**.
 
 > **Not affiliated with Adobe.** These are independently authored XMP files. *Adobe*,
 > *Adobe Lightroom* and *Adobe Camera Raw* are trademarks of Adobe Inc., used here

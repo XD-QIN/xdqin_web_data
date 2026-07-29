@@ -35,10 +35,10 @@ registrar, registration date, top-level domain, and nameserver.
 
 #### Building Film-Look Lightroom Presets
 
-Folder: [`building-a-film-look-preset-colour-science/`](building-a-film-look-preset-colour-science)
+Folder: [`building-film-look-lightroom-presets/`](building-film-look-lightroom-presets)
 
 Presets and code for the post **[Building Film-Look Lightroom Presets: The Colour
-Science, and How to Test It](https://xdqin.com/blog/photography/building-a-film-look-preset-colour-science)**,
+Science, and How to Test It](https://xdqin.com/blog/photography/building-film-look-lightroom-presets)**,
 which measures the colour of four films frame by frame and builds presets against
 those numbers. Includes **four ready-to-download presets** (`presets/*.xmp` — Autumn
 Sonata, Green Ray 1986, Hero 2002, Pierrot le Fou) and `make_proxy.py`, which builds
