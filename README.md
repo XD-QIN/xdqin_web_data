@@ -1,6 +1,8 @@
 # xdqin_web_data
 
-Companion data and code for the blogs at [xdqin.com](https://xdqin.com/blog/tech).
+Companion data and code for the blogs at [xdqin.com](https://xdqin.com) — the
+[Tech Blog](https://xdqin.com/blog/tech) and the
+[Photo Blog](https://xdqin.com/blog/photography).
 
 This repository holds the datasets and analysis scripts behind individual blog
 posts, kept separate from the website source so the raw data and code can be
@@ -30,6 +32,17 @@ RDAP-Based Statistical Analysis](https://xdqin.com/blog/tech/who-is-behind-my-bl
 which looks up the registration record of more than a thousand blocked spam
 domains via the Registration Data Access Protocol (RDAP) and clusters them by
 registrar, registration date, top-level domain, and nameserver.
+
+#### Building a Film-Look Preset
+
+Folder: [`building-a-film-look-preset-colour-science/`](building-a-film-look-preset-colour-science)
+
+Presets and code for the post **[Building a Film-Look Preset: The Colour Science,
+and How to Test It](https://xdqin.com/blog/photography/building-a-film-look-preset-colour-science)**,
+which measures the colour of three films frame by frame and builds camera presets
+against those numbers. Includes **four ready-to-download presets** (`presets/*.xmp`
+— Autumn Sonata, Green Ray 1986, Hero 2002, Pierrot le Fou) and `make_proxy.py`,
+which builds the neutral proxy images the testing harness compares against.
 
 
 ## License
