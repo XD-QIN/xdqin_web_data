@@ -45,6 +45,22 @@ Sonata, Green Ray 1986, Hero 2002, Pierrot le Fou) and `make_proxy.py`, which bu
 the neutral proxy images the testing harness compares against. Independent work, not
 affiliated with Adobe Inc.; see the folder's README for the full disclaimer.
 
+#### Making My Blog AT Protocol Ready
+
+Folder: [`making-my-blog-at-protocol-ready/`](making-my-blog-at-protocol-ready)
+
+Code for the post **[Making My Blog AT Protocol Ready: standard.site Records from
+a Cloudflare Build](https://xdqin.com/blog/tech/making-my-blog-at-protocol-ready)**,
+which turns the site into a verifiable [standard.site](https://standard.site)
+publication in the [AT Protocol](https://atproto.com) network — each post becomes a
+signed record under a DID, and the site and the records verify each other. Includes
+the identity config (`atproto.config.js`), the two `/.well-known` verification
+endpoints as a drop-in Worker route (`worker/well-known.js`), and the
+dependency-free publisher (`scripts/atproto-publish.mjs`) that writes the records
+and is wired into the deploy. `atproto.config.js` ships empty — fill in your own
+handle, DID and publication URI; this site's live values are readable at its two
+`/.well-known` endpoints.
+
 
 ## License
 
