@@ -62,10 +62,10 @@
    crs:SplitToningShadowHue="0"
    crs:SplitToningShadowSaturation="0"
    crs:SplitToningHighlightHue="207"
-   crs:SplitToningHighlightSaturation="30"
+   crs:SplitToningHighlightSaturation="10"
    crs:SplitToningBalance="0"
-   crs:ColorGradeMidtoneHue="357"
-   crs:ColorGradeMidtoneSat="3"
+   crs:ColorGradeMidtoneHue="40"
+   crs:ColorGradeMidtoneSat="12"
    crs:ColorGradeShadowLum="0"
    crs:ColorGradeMidtoneLum="0"
    crs:ColorGradeHighlightLum="0"
@@ -112,7 +112,7 @@
    </crs:SortName>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Kodak Gold Film Emulation</rdf:li>
+     <rdf:li xml:lang="x-default">Film Inspired</rdf:li>
     </rdf:Alt>
    </crs:Group>
    <crs:Description>

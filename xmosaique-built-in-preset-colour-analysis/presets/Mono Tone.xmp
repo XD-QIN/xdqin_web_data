@@ -162,6 +162,119 @@
        crs:What="Correction"
        crs:CorrectionAmount="1"
        crs:CorrectionActive="true"
+       crs:CorrectionName="Cool shadows"
+       crs:CorrectionSyncID="B1C2D3E4F5A6470899AABBCCDDEEFF02"
+       crs:LocalExposure="0"
+       crs:LocalHue="0"
+       crs:LocalSaturation="0"
+       crs:LocalContrast="0"
+       crs:LocalClarity="0"
+       crs:LocalSharpness="0"
+       crs:LocalBrightness="0"
+       crs:LocalToningHue="0"
+       crs:LocalToningSaturation="0"
+       crs:LocalExposure2012="0"
+       crs:LocalContrast2012="0"
+       crs:LocalHighlights2012="0"
+       crs:LocalShadows2012="0"
+       crs:LocalWhites2012="0"
+       crs:LocalBlacks2012="0"
+       crs:LocalClarity2012="0"
+       crs:LocalDehaze="0"
+       crs:LocalLuminanceNoise="0"
+       crs:LocalMoire="0"
+       crs:LocalDefringe="0"
+       crs:LocalTemperature="-12"
+       crs:LocalTint="-3"
+       crs:LocalTexture="0"
+       crs:LocalGrain="0"
+       crs:LocalCurveRefineSaturation="100">
+      <crs:CorrectionMasks>
+       <rdf:Seq>
+        <rdf:li>
+         <rdf:Description
+          crs:What="Mask/RangeMask"
+          crs:MaskActive="true"
+          crs:MaskName="Luminance Range Cool shadows"
+          crs:MaskBlendMode="0"
+          crs:MaskInverted="false"
+          crs:MaskSyncID="20FFEEDDCCBBAA9980746A5F4E3D2C1B"
+          crs:MaskValue="1">
+         <crs:CorrectionRangeMask
+          crs:Version="3"
+          crs:Type="2"
+          crs:Invert="false"
+          crs:SampleType="0"
+          crs:LumRange="0.000000 0.000000 0.320000 0.620000"
+          crs:LuminanceDepthSampleInfo="0 0.331378 0.207031"/>
+         </rdf:Description>
+        </rdf:li>
+       </rdf:Seq>
+      </crs:CorrectionMasks>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       crs:What="Correction"
+       crs:CorrectionAmount="1"
+       crs:CorrectionActive="true"
+       crs:CorrectionName="Warm highlights"
+       crs:CorrectionSyncID="C1D2E3F4A5B6470899AABBCCDDEEFF03"
+       crs:LocalExposure="0"
+       crs:LocalHue="0"
+       crs:LocalSaturation="0"
+       crs:LocalContrast="0"
+       crs:LocalClarity="0"
+       crs:LocalSharpness="0"
+       crs:LocalBrightness="0"
+       crs:LocalToningHue="0"
+       crs:LocalToningSaturation="0"
+       crs:LocalExposure2012="0"
+       crs:LocalContrast2012="0"
+       crs:LocalHighlights2012="0"
+       crs:LocalShadows2012="0"
+       crs:LocalWhites2012="0"
+       crs:LocalBlacks2012="0"
+       crs:LocalClarity2012="0"
+       crs:LocalDehaze="0"
+       crs:LocalLuminanceNoise="0"
+       crs:LocalMoire="0"
+       crs:LocalDefringe="0"
+       crs:LocalTemperature="8"
+       crs:LocalTint="0"
+       crs:LocalTexture="0"
+       crs:LocalGrain="0"
+       crs:LocalCurveRefineSaturation="100">
+      <crs:CorrectionMasks>
+       <rdf:Seq>
+        <rdf:li>
+         <rdf:Description
+          crs:What="Mask/RangeMask"
+          crs:MaskActive="true"
+          crs:MaskName="Luminance Range Warm highlights"
+          crs:MaskBlendMode="0"
+          crs:MaskInverted="false"
+          crs:MaskSyncID="30FFEEDDCCBBAA9980746B5A4F3E2D1C"
+          crs:MaskValue="1">
+         <crs:CorrectionRangeMask
+          crs:Version="3"
+          crs:Type="2"
+          crs:Invert="false"
+          crs:SampleType="0"
+          crs:LumRange="0.380000 0.680000 1.000000 1.000000"
+          crs:LuminanceDepthSampleInfo="0 0.331378 0.207031"/>
+         </rdf:Description>
+        </rdf:li>
+       </rdf:Seq>
+      </crs:CorrectionMasks>
+      </rdf:Description>
+     </rdf:li>
+
+     <rdf:li>
+      <rdf:Description
+       crs:What="Correction"
+       crs:CorrectionAmount="1"
+       crs:CorrectionActive="true"
        crs:CorrectionName="Grain"
        crs:CorrectionSyncID="3B8612367A64467DA221C3F0D71A2EE8"
        crs:LocalExposure="0"

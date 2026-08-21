@@ -112,7 +112,7 @@
    </crs:SortName>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Provia 100F Film Emulation</rdf:li>
+     <rdf:li xml:lang="x-default">Film Inspired</rdf:li>
     </rdf:Alt>
    </crs:Group>
    <crs:Description>
@@ -123,8 +123,9 @@
    <crs:ToneCurvePV2012>
     <rdf:Seq>
      <rdf:li>0, 0</rdf:li>
-     <rdf:li>199, 202</rdf:li>
-     <rdf:li>249, 255</rdf:li>
+     <rdf:li>199, 201</rdf:li>
+     <rdf:li>249, 246</rdf:li>
+     <rdf:li>255, 250</rdf:li>
     </rdf:Seq>
    </crs:ToneCurvePV2012>
    <crs:ToneCurvePV2012Red>

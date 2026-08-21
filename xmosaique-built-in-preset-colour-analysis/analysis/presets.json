@@ -15,7 +15,7 @@
    "Highlights2012": -10.0,
    "Shadows2012": 0.0,
    "Whites2012": -6.0,
-   "Blacks2012": -7.0,
+   "Blacks2012": -3.0,
    "Texture": -10.0,
    "Clarity2012": -8.0,
    "Dehaze": -3.0,
@@ -84,7 +84,7 @@
    ],
    "highlight": [
     210.0,
-    6.0,
+    40.0,
     0.0
    ],
    "global": [
@@ -192,7 +192,7 @@
  {
   "file": "Cool Slide.xmp",
   "name": "Cool Slide",
-  "group": "Provia 100F Film Emulation",
+  "group": "Film Inspired",
   "monochrome": false,
   "wb": {
    "temperature": -3.0,
@@ -301,11 +301,15 @@
     ],
     [
      199.0,
-     202.0
+     201.0
     ],
     [
      249.0,
-     255.0
+     246.0
+    ],
+    [
+     255.0,
+     250.0
     ]
    ],
    "red": [
@@ -389,7 +393,7 @@
  {
   "file": "Golden.xmp",
   "name": "Golden",
-  "group": "Kodak Gold Film Emulation",
+  "group": "Film Inspired",
   "monochrome": false,
   "wb": {
    "temperature": 10.0,
@@ -455,7 +459,7 @@
    "shadow_hue": 0.0,
    "shadow_sat": 0.0,
    "highlight_hue": 207.0,
-   "highlight_sat": 30.0,
+   "highlight_sat": 10.0,
    "balance": 0.0
   },
   "grade": {
@@ -465,8 +469,8 @@
     0.0
    ],
    "midtone": [
-    357.0,
-    3.0,
+    40.0,
+    12.0,
     0.0
    ],
    "highlight": [
@@ -628,7 +632,7 @@
  {
   "file": "Green Accent.xmp",
   "name": "Green Accent",
-  "group": "Fuji c200",
+  "group": "Film Inspired",
   "monochrome": false,
   "wb": {
    "temperature": 8.0,
@@ -662,8 +666,8 @@
    "sat": {
     "Red": -2.0,
     "Orange": -9.0,
-    "Yellow": -16.0,
-    "Green": -18.0,
+    "Yellow": -10.0,
+    "Green": -6.0,
     "Aqua": 12.0,
     "Blue": 3.0,
     "Purple": 0.0,
@@ -691,7 +695,7 @@
    "Magenta": 0.0
   },
   "split": {
-   "shadow_hue": 107.0,
+   "shadow_hue": 135.0,
    "shadow_sat": 13.0,
    "highlight_hue": 20.0,
    "highlight_sat": 0.0,
@@ -1352,13 +1356,13 @@
    ]
   },
   "point_colors": [],
-  "grain": 0.38,
+  "grain": 0.0,
   "vignette": 0.0
  },
  {
   "file": "Natural.xmp",
   "name": "Natural",
-  "group": "Kodak Portra 400",
+  "group": "Film Inspired",
   "monochrome": false,
   "wb": {
    "temperature": -5.0,
@@ -1716,10 +1720,10 @@
  {
   "file": "Tungsten.xmp",
   "name": "Tungsten",
-  "group": "CineStill 800T",
+  "group": "Film Inspired",
   "monochrome": false,
   "wb": {
-   "temperature": 0.0,
+   "temperature": -14.0,
    "tint": 1.0,
    "mode": "Custom"
   },
@@ -1748,7 +1752,7 @@
     "Magenta": 19.0
    },
    "sat": {
-    "Red": 0.0,
+    "Red": 31.0,
     "Orange": 13.0,
     "Yellow": 36.0,
     "Green": -6.0,
@@ -1758,13 +1762,13 @@
     "Magenta": -5.0
    },
    "lum": {
-    "Red": -21.0,
-    "Orange": -19.0,
+    "Red": -3.0,
+    "Orange": -3.0,
     "Yellow": 30.0,
     "Green": -12.0,
     "Aqua": 0.0,
-    "Blue": 19.0,
-    "Purple": 3.0,
+    "Blue": -9.0,
+    "Purple": -2.0,
     "Magenta": -1.0
    }
   },
@@ -1779,8 +1783,8 @@
    "Magenta": 0.0
   },
   "split": {
-   "shadow_hue": 125.0,
-   "shadow_sat": 19.0,
+   "shadow_hue": 205.0,
+   "shadow_sat": 30.0,
    "highlight_hue": 35.0,
    "highlight_sat": 19.0,
    "balance": 0.0
@@ -1912,7 +1916,7 @@
  {
   "file": "Vivid Daylight.xmp",
   "name": "Vivid Daylight",
-  "group": "Kodak Ektar 100",
+  "group": "Film Inspired",
   "monochrome": false,
   "wb": {
    "temperature": 0.0,

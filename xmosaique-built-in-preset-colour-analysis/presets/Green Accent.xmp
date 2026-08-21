@@ -45,8 +45,8 @@
    crs:HueAdjustmentMagenta="0"
    crs:SaturationAdjustmentRed="-2"
    crs:SaturationAdjustmentOrange="-9"
-   crs:SaturationAdjustmentYellow="-16"
-   crs:SaturationAdjustmentGreen="-18"
+   crs:SaturationAdjustmentYellow="-10"
+   crs:SaturationAdjustmentGreen="-6"
    crs:SaturationAdjustmentAqua="+12"
    crs:SaturationAdjustmentBlue="+3"
    crs:SaturationAdjustmentPurple="0"
@@ -59,7 +59,7 @@
    crs:LuminanceAdjustmentBlue="-6"
    crs:LuminanceAdjustmentPurple="+3"
    crs:LuminanceAdjustmentMagenta="0"
-   crs:SplitToningShadowHue="107"
+   crs:SplitToningShadowHue="135"
    crs:SplitToningShadowSaturation="13"
    crs:SplitToningHighlightHue="20"
    crs:SplitToningHighlightSaturation="0"
@@ -112,7 +112,7 @@
    </crs:SortName>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Fuji c200</rdf:li>
+     <rdf:li xml:lang="x-default">Film Inspired</rdf:li>
     </rdf:Alt>
    </crs:Group>
    <crs:Description>

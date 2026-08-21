@@ -21,7 +21,7 @@
    crs:CompatibleVersion="268435456"
    crs:ProcessVersion="15.4"
    crs:WhiteBalance="Custom"
-   crs:IncrementalTemperature="0"
+   crs:IncrementalTemperature="-14"
    crs:IncrementalTint="+1"
    crs:Texture="-16"
    crs:Clarity2012="0"
@@ -43,7 +43,7 @@
    crs:HueAdjustmentBlue="+3"
    crs:HueAdjustmentPurple="-15"
    crs:HueAdjustmentMagenta="+19"
-   crs:SaturationAdjustmentRed="0"
+   crs:SaturationAdjustmentRed="+31"
    crs:SaturationAdjustmentOrange="+13"
    crs:SaturationAdjustmentYellow="+36"
    crs:SaturationAdjustmentGreen="-6"
@@ -51,16 +51,16 @@
    crs:SaturationAdjustmentBlue="-6"
    crs:SaturationAdjustmentPurple="-7"
    crs:SaturationAdjustmentMagenta="-5"
-   crs:LuminanceAdjustmentRed="-21"
-   crs:LuminanceAdjustmentOrange="-19"
+   crs:LuminanceAdjustmentRed="-3"
+   crs:LuminanceAdjustmentOrange="-3"
    crs:LuminanceAdjustmentYellow="+30"
    crs:LuminanceAdjustmentGreen="-12"
    crs:LuminanceAdjustmentAqua="0"
-   crs:LuminanceAdjustmentBlue="+19"
-   crs:LuminanceAdjustmentPurple="+3"
+   crs:LuminanceAdjustmentBlue="-9"
+   crs:LuminanceAdjustmentPurple="-2"
    crs:LuminanceAdjustmentMagenta="-1"
-   crs:SplitToningShadowHue="125"
-   crs:SplitToningShadowSaturation="19"
+   crs:SplitToningShadowHue="205"
+   crs:SplitToningShadowSaturation="30"
    crs:SplitToningHighlightHue="35"
    crs:SplitToningHighlightSaturation="19"
    crs:SplitToningBalance="0"
@@ -112,7 +112,7 @@
    </crs:SortName>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">CineStill 800T</rdf:li>
+     <rdf:li xml:lang="x-default">Film Inspired</rdf:li>
     </rdf:Alt>
    </crs:Group>
    <crs:Description>
