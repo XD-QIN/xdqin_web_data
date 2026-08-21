@@ -43,10 +43,19 @@ it. In xMosaique itself they are already installed.
 
 **Note on portability.** The values were designed and measured against my own
 rendering engine, and several `crs:` parameters have deliberately different response
-curves there than in Lightroom — most notably the split-toning balance, whose sign is
-inverted, and the shadow/black sliders, which bite considerably harder. Loading these
-into Lightroom or Camera Raw gives you something in the right neighbourhood, but not
-an identical result.
+curves there than in Lightroom — most notably the shadow/black sliders, which bite
+considerably harder. Loading these into Lightroom or Camera Raw gives you something
+in the right neighbourhood, but not an identical result.
+
+**Correction to the earlier folder's note.**
+[`building-film-look-lightroom-presets/`](../building-film-look-lightroom-presets)
+states that `SplitToningBalance` is inverted relative to Lightroom. That held for the
+piecewise implementation it was written against; the colour-grading module has since
+been reworked and the current engine follows **Adobe's convention** — positive balance
+emphasises the highlight wheel, negative the shadow wheel
+(`adjustments/color_grading.rs`, and the `positive_balance_emphasizes_highlight_wheel`
+test). Measured through the CLI, a bright pixel's R−B runs +4 → +16 as balance goes
+−100 → +100. Use the Adobe direction when adapting these files.
 
 **Relationship to the earlier four.** *Autumn Sonata*, *Green Ray 1986*, *Hero 2002*
 and *Pierrot le Fou* also appear in
