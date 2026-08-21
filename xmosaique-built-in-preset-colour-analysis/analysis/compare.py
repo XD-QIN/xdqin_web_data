@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Measure original vs proposed on every film-realism axis established so far."""
+import os
 import colorsys, os, subprocess, sys
 import numpy as np
 from PIL import Image
 
-CLI="/home/user/xMosaique_iOS/xmp-preset-engine/target/release/xmp-engine-cli"
-SRC="/home/user/xMosaique_iOS/Presets"; NEW="proposed2"
+CLI = os.environ.get("XMP_ENGINE_CLI", "./xmp-engine-cli")
+SRC = os.environ.get("XMP_PRESETS", "./presets"); NEW="proposed2"
 ORDER=["Pierrot le Fou","Green Ray 1986","Autumn Sonata","Hero 2002","Natural",
        "Cool Slide","Vivid Daylight","Green Accent","Golden","Tungsten","Mono Tone"]
 LEV=[0.15,0.30,0.45,0.60,0.75,0.88]; HUES=list(range(0,360,15))

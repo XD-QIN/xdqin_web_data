@@ -53,7 +53,7 @@ Presets and measurement code for the post **[A Colour Analysis of xMosaique's El
 Built-In Presets: Reading a Look Off the Colour
 Wheel](https://xdqin.com/blog/photography/xmosaique-built-in-preset-colour-analysis)**,
 which renders 187 probe colours through each of the eleven looks that ship in the
-[xMosaique](https://github.com/XD-QIN/xMosaique_iOS) camera app and reads the
+[xMosaique](https://xmosaique.com) camera app and reads the
 resulting hue rotation, saturation and tonal response off a colour wheel, then
 revises seven of them against those measurements. Includes **all eleven
 ready-to-download presets** (`presets/*.xmp`) and the harness that produced every

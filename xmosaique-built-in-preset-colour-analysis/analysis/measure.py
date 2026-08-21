@@ -22,7 +22,7 @@ import sys
 import numpy as np
 from PIL import Image
 
-CLI = "/home/user/xMosaique_iOS/xmp-preset-engine/target/release/xmp-engine-cli"
+CLI = os.environ.get("XMP_ENGINE_CLI", "./xmp-engine-cli")
 TILE = 48          # rendered field size
 CORE = 8           # centre region averaged
 

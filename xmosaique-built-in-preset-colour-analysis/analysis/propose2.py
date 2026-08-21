@@ -2,7 +2,7 @@
 """Revision 2 of the proposal, after peer review.
 
 The review's central finding reframed everything: the six stock presets ARE the
-files in xMosaique_iOS/samples/ (byte-identical bar name and UUID), and that
+files in the app's sample library  (byte-identical bar name and UUID), and that
 library already ships styled variants — a 'lifted blacks' variant,
 `a 'cool' variant`. So a "make the base more film-like" edit that lifts the reference look's toe
 does not improve the base; it converts it into an existing variant and destroys
@@ -14,9 +14,10 @@ house variants' construction, and that apply_mask_groups (pipeline.rs:531) runs
 AFTER grayscale.apply() (:499) — which is what makes the two changes I had
 called impossible actually possible.
 """
+import os
 import os, re
 
-SRC="/home/user/xMosaique_iOS/Presets"; OUT="proposed2"
+SRC = os.environ.get("XMP_PRESETS", "./presets"); OUT="proposed2"
 CURVE={"master":"ToneCurvePV2012","red":"ToneCurvePV2012Red",
        "green":"ToneCurvePV2012Green","blue":"ToneCurvePV2012Blue"}
 

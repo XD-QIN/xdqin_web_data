@@ -14,7 +14,7 @@ Wheel](https://xdqin.com/blog/photography/xmosaique-built-in-preset-colour-analy
 ### `presets/` — all eleven built-in presets, free to download
 
 These are the eleven looks that ship inside
-[xMosaique](https://github.com/XD-QIN/xMosaique_iOS), copied verbatim from the app's
+[xMosaique](https://xmosaique.com), copied verbatim from the app's
 `Presets/` folder. Four are cinema looks, six are film-inspired, one is monochrome.
 
 | File | Group | What it does, in one line |
@@ -65,16 +65,20 @@ Reproduces every figure in the post.
 ```bash
 pip install numpy matplotlib pillow
 
-# 1. Build the rendering engine (from the xMosaique_iOS checkout)
+# 1. Build the rendering engine (from the app's engine source, which is not public)
 cd xmp-preset-engine && cargo build --release --bin xmp-engine-cli
 
-# 2. Extract the slider values from the XMP files
-python3 parse_presets.py path/to/presets      # -> presets.json
+# 2. Point the harness at that binary and at a folder of presets
+export XMP_ENGINE_CLI=/path/to/xmp-engine-cli
+export XMP_PRESETS=./presets
 
-# 3. Render the probes through every preset  (edit CLI at the top of measure.py)
-python3 measure.py path/to/presets            # -> measured.json
+# 3. Extract the slider values from the XMP files
+python3 parse_presets.py "$XMP_PRESETS"       # -> presets.json
 
-# 4. Report and figures
+# 4. Render the probes through every preset
+python3 measure.py "$XMP_PRESETS"             # -> measured.json
+
+# 5. Report and figures
 python3 analyze.py                            # per-preset numbers
 python3 summary.py                            # the table the post quotes
 python3 fig_wheels.py fig_grey.py ...         # one PNG each
@@ -83,7 +87,7 @@ python3 chroma_film.py                        # exposure-dependence and crossove
 python3 compare.py                            # before/after against a revision
 ```
 
-`measured.json` and `presets.json` are committed, so steps 3 and 4 run without
+`measured.json` and `presets.json` are committed, so steps 4 and 5 run without
 building the engine if you only want to re-plot. `propose2.py` is the script that
 generated the revision documented in §10 of the post, with the rationale for each
 change in its `SPEC` block.

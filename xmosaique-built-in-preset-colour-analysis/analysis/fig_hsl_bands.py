@@ -5,6 +5,7 @@ Systematic probes, not invented surfaces: each row is an Adobe HSL band centre
 at L=0.50, rendered at three saturations, with the resulting sRGB hex printed
 under every swatch so the numbers can be checked by hand.
 """
+import os
 import colorsys, os, subprocess, sys
 import matplotlib
 matplotlib.use("Agg")
@@ -15,7 +16,7 @@ from PIL import Image
 
 from common import BG, INK, MUTED_INK
 
-CLI="/home/user/xMosaique_iOS/xmp-preset-engine/target/release/xmp-engine-cli"
+CLI = os.environ.get("XMP_ENGINE_CLI", "./xmp-engine-cli")
 BANDS=[("Red",0),("Orange",30),("Yellow",60),("Green",120),
        ("Aqua",180),("Blue",240),("Purple",270),("Magenta",300)]
 SATS=[0.85,0.45,0.20]
@@ -71,7 +72,7 @@ def chart(cols, out, title, width, note=""):
     fig.subplots_adjust(left=0.012,right=0.995,top=0.985,bottom=0.02)
     fig.savefig(out,dpi=150,facecolor=BG); print(out)
 
-P="/home/user/xMosaique_iOS/Presets/%s.xmp"
+P = os.environ.get("XMP_PRESETS", "./presets") + "/%s.xmp"
 if __name__=="__main__":
     cinema=["Pierrot le Fou","Green Ray 1986","Autumn Sonata","Hero 2002"]
     stocks=["Natural","Cool Slide","Vivid Daylight","Green Accent","Golden",
