@@ -45,6 +45,22 @@ Sonata, Green Ray 1986, Hero 2002, Pierrot le Fou) and `make_proxy.py`, which bu
 the neutral proxy images the testing harness compares against. Independent work, not
 affiliated with Adobe Inc.; see the folder's README for the full disclaimer.
 
+#### A Colour Analysis of xMosaique's Eleven Built-In Presets
+
+Folder: [`xmosaique-built-in-preset-colour-analysis/`](xmosaique-built-in-preset-colour-analysis)
+
+Presets and measurement code for the post **[A Colour Analysis of xMosaique's Eleven
+Built-In Presets: Reading a Look Off the Colour
+Wheel](https://xdqin.com/blog/photography/xmosaique-built-in-preset-colour-analysis)**,
+which renders 187 probe colours through each of the eleven looks that ship in the
+[xMosaique](https://github.com/XD-QIN/xMosaique_iOS) camera app and reads the
+resulting hue rotation, saturation and tonal response off a colour wheel. Includes
+**all eleven ready-to-download presets** (`presets/*.xmp`) and the harness that
+produced every figure (`analysis/`), with the measured data committed so the plots
+re-run without building the rendering engine. Independent work, not affiliated with
+Adobe Inc. or with any film manufacturer; see the folder's README for the full
+disclaimer.
+
 #### Making My Blog AT Protocol Ready
 
 Folder: [`making-my-blog-at-protocol-ready/`](making-my-blog-at-protocol-ready)
