@@ -47,11 +47,11 @@ affiliated with Adobe Inc.; see the folder's README for the full disclaimer.
 
 #### A Colour Analysis of xMosaique's Eleven Built-In Presets
 
-Folder: [`xmosaique-built-in-preset-colour-analysis/`](xmosaique-built-in-preset-colour-analysis)
+Folder: [`xMosaique-built-in-preset-colour-analysis-and-updates/`](xMosaique-built-in-preset-colour-analysis-and-updates)
 
 Presets and measurement code for the post **[A Colour Analysis of xMosaique's Eleven
 Built-In Presets: Reading a Look Off the Colour
-Wheel](https://xdqin.com/blog/photography/xmosaique-built-in-preset-colour-analysis)**,
+Wheel](https://xdqin.com/blog/photography/xmosaique-built-in-preset-colour-analysis-and-updates)**,
 which renders 187 probe colours through each of the eleven looks that ship in the
 [xMosaique](https://xmosaique.com) camera app and reads the
 resulting hue rotation, saturation and tonal response off a colour wheel, then

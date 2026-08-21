@@ -2,7 +2,7 @@
 
 Presets and measurement code for the post **[A Colour Analysis of xMosaique's Eleven
 Built-In Presets: Reading a Look Off the Colour
-Wheel](https://xdqin.com/blog/photography/xmosaique-built-in-preset-colour-analysis)**.
+Wheel](https://xdqin.com/blog/photography/xmosaique-built-in-preset-colour-analysis-and-updates)**.
 
 > **Not affiliated with Adobe.** These are independently authored XMP files. *Adobe*,
 > *Adobe Lightroom* and *Adobe Camera Raw* are trademarks of Adobe Inc., used here
