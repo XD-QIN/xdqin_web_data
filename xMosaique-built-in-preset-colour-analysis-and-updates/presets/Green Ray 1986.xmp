@@ -95,7 +95,7 @@
    crs:LuminanceSmoothing="6"
    crs:LuminanceNoiseReductionDetail="50"
    crs:ColorNoiseReduction="25"
-   crs:GrainAmount="32"
+   crs:GrainAmount="47"
    crs:GrainSize="25"
    crs:GrainFrequency="50"
    crs:PostCropVignetteAmount="-6"
