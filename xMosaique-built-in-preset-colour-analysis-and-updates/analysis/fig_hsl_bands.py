@@ -5,7 +5,6 @@ Systematic probes, not invented surfaces: each row is an Adobe HSL band centre
 at L=0.50, rendered at three saturations, with the resulting sRGB hex printed
 under every swatch so the numbers can be checked by hand.
 """
-import os
 import colorsys, os, subprocess, sys
 import matplotlib
 matplotlib.use("Agg")
@@ -16,7 +15,7 @@ from PIL import Image
 
 from common import BG, INK, MUTED_INK
 
-CLI = os.environ.get("XMP_ENGINE_CLI", "./xmp-engine-cli")
+CLI="/home/user/xMosaique_iOS/xmp-preset-engine/target/release/xmp-engine-cli"
 BANDS=[("Red",0),("Orange",30),("Yellow",60),("Green",120),
        ("Aqua",180),("Blue",240),("Purple",270),("Magenta",300)]
 SATS=[0.85,0.45,0.20]
@@ -40,7 +39,7 @@ def hexs(c): return "#%02X%02X%02X"%tuple(int(round(x*255)) for x in c)
 def chart(cols, out, title, width, note=""):
     """cols = [(header, preset_path_or_None)] ; None means unmodified input."""
     nR=len(BANDS); nC=len(cols); gap=0.55
-    fig_w=width; fig_h=1.05+0.62*nR
+    fig_w=width; fig_h=1.22+0.62*nR
     fig,ax=plt.subplots(figsize=(fig_w,fig_h))
     fig.patch.set_facecolor(BG); ax.set_facecolor(BG)
     total=len(SATS)*nC+(len(SATS)-1)*gap
@@ -63,16 +62,19 @@ def chart(cols, out, title, width, note=""):
             if gi==0:
                 ax.text(-0.30,y+0.50,bname,fontsize=9.2,color=INK,
                         ha="right",va="center")
-    ax.set_xlim(-2.35,total+0.05); ax.set_ylim(-0.55,nR+1.35)
+    ax.set_xlim(-2.35,total+0.05); ax.set_ylim(-0.55,nR+1.72)
     ax.axis("off")
-    ax.text(-2.30,nR+1.15,title,fontsize=11.6,color=INK,ha="left",va="bottom",
+    ax.text(-2.30,nR+1.42,title,fontsize=11.6,color=INK,ha="left",va="bottom",
             fontweight="bold")
+    ax.text(-2.30,nR+1.14,"How to read: the 'orig' column is the colour before; "
+            "each column after it shows what that preset turns the same colour into.",
+            fontsize=8.2,color=MUTED_INK,ha="left",va="bottom",style="italic")
     if note:
         ax.text(-2.30,-0.42,note,fontsize=7.6,color=MUTED_INK,ha="left",va="bottom")
     fig.subplots_adjust(left=0.012,right=0.995,top=0.985,bottom=0.02)
     fig.savefig(out,dpi=150,facecolor=BG); print(out)
 
-P = os.environ.get("XMP_PRESETS", "./presets") + "/%s.xmp"
+P="/home/user/xMosaique_iOS/Presets/%s.xmp"
 if __name__=="__main__":
     cinema=["Pierrot le Fou","Green Ray 1986","Autumn Sonata","Hero 2002"]
     stocks=["Natural","Cool Slide","Vivid Daylight","Green Accent","Golden",

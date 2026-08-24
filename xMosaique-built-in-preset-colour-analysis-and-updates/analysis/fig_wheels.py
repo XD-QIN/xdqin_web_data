@@ -1,24 +1,35 @@
 #!/usr/bin/env python3
 """The colour wheel figure: how each preset deforms the hue circle.
 
-Each panel is a polar plot of the measured response. Angle is hue, radius is
-saturation. The faint ring is where the 72 input probes started (S=0.65, L=0.50);
-each spoke runs from that starting point to where the preset actually put that
-colour, and the dot at the end is painted in the rendered output RGB. A spoke
-that swings anticlockwise is a hue rotated toward yellow-green; one that reaches
-further out is a colour the preset saturated.
+Accessibility pass: every wheel carries a one-line plain-language verdict
+under its name, the first two wheels carry direct annotations showing how to
+read a spoke (outward = more vivid, sideways = renamed), and the legend cell
+explains the encoding in ordinary words.
 """
 import colorsys
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
-from matplotlib.lines import Line2D
 
 from common import BG, INK, MUTED_INK, ORDER, is_mono, sweep, sdiff
 
 RIN = 0.65          # radius of the input ring == probe saturation
 RMAX = 1.02
+
+VERDICT = {
+    "Pierrot le Fou": "everything gets more vivid",
+    "Green Ray 1986": "the warm side grows",
+    "Autumn Sonata": "colours are muted, especially cool ones",
+    "Hero 2002": "the strongest boost of all",
+    "Natural": "purples and magentas swing toward red",
+    "Cool Slide": "gently cooler, reds kept",
+    "Vivid Daylight": "more vivid, nothing renamed",
+    "Green Accent": "quiet; yellows eased",
+    "Golden": "warm colours renamed, not boosted",
+    "Tungsten": "yellows and oranges surge",
+    "Mono Tone": "all colour removed",
+}
 
 
 def draw_wheel(ax, name, tag="vivid", label_bands=False):
@@ -43,7 +54,6 @@ def draw_wheel(ax, name, tag="vivid", label_bands=False):
     # The deformation: input position -> measured output position.
     for i in range(len(hs)):
         a0, a1 = np.deg2rad(hs[i]), np.deg2rad(ho[i])
-        # Interpolate along the shorter arc so the spoke shows the rotation.
         d = np.deg2rad(sdiff(ho[i], hs[i]))
         t = np.linspace(0, 1, 24)
         arc = a0 + d * t
@@ -53,16 +63,14 @@ def draw_wheel(ax, name, tag="vivid", label_bands=False):
         ax.scatter([a1], [so[i]], c=[rgb[i]], s=13, zorder=4, edgecolors="none")
 
     if label_bands:
-        for lbl, ang in [("R", 0), ("Y", 60), ("G", 120), ("C", 180),
-                         ("B", 240), ("M", 300)]:
-            ax.text(np.deg2rad(ang), RMAX + 0.13, lbl, ha="center", va="center",
-                    fontsize=8.5, color=MUTED_INK)
+        for lbl, ang in [("red", 0), ("yellow", 60), ("green", 120),
+                         ("cyan", 180), ("blue", 240), ("magenta", 300)]:
+            ax.text(np.deg2rad(ang), RMAX + 0.16, lbl, ha="center", va="center",
+                    fontsize=7.6, color=MUTED_INK)
 
 
 def main():
-    n = len(ORDER)
-    cols, rows = 4, 3
-    fig, axes = plt.subplots(rows, cols, figsize=(15.2, 11.8),
+    fig, axes = plt.subplots(3, 4, figsize=(15.2, 12.6),
                              subplot_kw={"projection": "polar"})
     fig.patch.set_facecolor(BG)
     axes = axes.ravel()
@@ -70,32 +78,47 @@ def main():
     for i, name in enumerate(ORDER):
         ax = axes[i]
         draw_wheel(ax, name, label_bands=(i == 0))
-        sub = "monochrome — the wheel collapses" if is_mono(name) else ""
-        ax.set_title(name, fontsize=12.5, color=INK, pad=14)
-        if sub:
-            ax.text(0.5, -0.055, sub, transform=ax.transAxes, ha="center",
-                    fontsize=8.4, color=MUTED_INK, style="italic")
+        ax.set_title(name, fontsize=12.5, color=INK, pad=26)
+        ax.text(0.5, 1.055, VERDICT[name], transform=ax.transAxes, ha="center",
+                fontsize=8.6, color=MUTED_INK, style="italic")
 
-    # Twelfth cell: how to read the figure.
+    # Direct reading hints on the first two wheels the eye meets.
+    ax = axes[0]      # Pierrot: spokes reach outward
+    ax.annotate("spokes reach outward\n= colour gets more vivid",
+                xy=(np.deg2rad(238), 0.96), xycoords="data",
+                xytext=(0.00, -0.06), textcoords="axes fraction",
+                ha="left", va="top", fontsize=8.2, color=MUTED_INK,
+                arrowprops=dict(arrowstyle="->", color=MUTED_INK, lw=0.9,
+                                shrinkA=2, shrinkB=2))
+    ax = axes[4]      # Natural: magenta spokes swing sideways
+    ax.annotate("spokes swing sideways\n= colour renamed",
+                xy=(np.deg2rad(322), 0.80), xycoords="data",
+                xytext=(1.00, -0.06), textcoords="axes fraction",
+                ha="right", va="top", fontsize=8.2, color=MUTED_INK,
+                arrowprops=dict(arrowstyle="->", color=MUTED_INK, lw=0.9,
+                                shrinkA=2, shrinkB=2))
+
+    # Twelfth cell: how to read, in plain words.
     ax = axes[11]
     ax.axis("off")
     ax.set_facecolor(BG)
-    ax.text(0.5, 0.97, "How to read these", transform=ax.transAxes,
+    ax.text(0.5, 0.96, "How to read these wheels", transform=ax.transAxes,
             ha="center", va="top", fontsize=12.5, color=INK)
-    ax.text(0.5, 0.855,
-            "Angle is hue, radius is saturation.\n\n"
-            "The faint ring is where the 72 probe colours\n"
-            "started: S = 0.65, L = 0.50. Each spoke runs\n"
-            "to where the preset actually put that colour,\n"
-            "painted in the rendered output.\n\n"
-            "Anticlockwise swing → hue pushed toward\n"
-            "yellow-green. Outward → saturated.\n"
-            "Inward → desaturated.",
+    ax.text(0.5, 0.84,
+            "Around the circle: which colour (hue).\n"
+            "Distance from centre: how vivid.\n\n"
+            "The faint ring is where 72 test colours\n"
+            "started. Each spoke runs to where the\n"
+            "preset actually moved that colour,\n"
+            "painted in the colour that came out.\n\n"
+            "outward = more vivid\n"
+            "inward = muted\n"
+            "sideways = renamed",
             transform=ax.transAxes, ha="center", va="top", fontsize=9.4,
-            color=MUTED_INK, linespacing=1.6)
+            color=MUTED_INK, linespacing=1.65)
 
-    fig.subplots_adjust(left=0.02, right=0.98, top=0.945, bottom=0.035,
-                        wspace=0.16, hspace=0.26)
+    fig.subplots_adjust(left=0.02, right=0.98, top=0.935, bottom=0.045,
+                        wspace=0.16, hspace=0.38)
     fig.savefig("out_wheels.png", dpi=132, facecolor=BG)
     print("wrote out_wheels.png")
 
