@@ -1,0 +1,2092 @@
+[
+ {
+  "file": "Autumn Sonata.xmp",
+  "name": "Autumn Sonata",
+  "group": "Cinema",
+  "monochrome": false,
+  "wb": {
+   "temperature": 5.0,
+   "tint": 3.0,
+   "mode": "Custom"
+  },
+  "basic": {
+   "Exposure2012": 0.0,
+   "Contrast2012": 0.0,
+   "Highlights2012": -10.0,
+   "Shadows2012": 0.0,
+   "Whites2012": -6.0,
+   "Blacks2012": -3.0,
+   "Texture": -10.0,
+   "Clarity2012": -8.0,
+   "Dehaze": -3.0,
+   "Vibrance": -13.0,
+   "Saturation": 0.0
+  },
+  "hsl": {
+   "hue": {
+    "Red": -4.0,
+    "Orange": -4.0,
+    "Yellow": 22.0,
+    "Green": 55.0,
+    "Aqua": 22.0,
+    "Blue": -16.0,
+    "Purple": -8.0,
+    "Magenta": 6.0
+   },
+   "sat": {
+    "Red": 18.0,
+    "Orange": 18.0,
+    "Yellow": -18.0,
+    "Green": 16.0,
+    "Aqua": -6.0,
+    "Blue": 0.0,
+    "Purple": -16.0,
+    "Magenta": -10.0
+   },
+   "lum": {
+    "Red": -4.0,
+    "Orange": 5.0,
+    "Yellow": -8.0,
+    "Green": -8.0,
+    "Aqua": 2.0,
+    "Blue": 22.0,
+    "Purple": -2.0,
+    "Magenta": -6.0
+   }
+  },
+  "gray_mixer": {
+   "Red": 0.0,
+   "Orange": 0.0,
+   "Yellow": 0.0,
+   "Green": 0.0,
+   "Aqua": 0.0,
+   "Blue": 0.0,
+   "Purple": 0.0,
+   "Magenta": 0.0
+  },
+  "split": {
+   "shadow_hue": 0.0,
+   "shadow_sat": 0.0,
+   "highlight_hue": 0.0,
+   "highlight_sat": 0.0,
+   "balance": 60.0
+  },
+  "grade": {
+   "shadow": [
+    20.0,
+    6.0,
+    -2.0
+   ],
+   "midtone": [
+    28.0,
+    7.0,
+    0.0
+   ],
+   "highlight": [
+    210.0,
+    40.0,
+    0.0
+   ],
+   "global": [
+    28.0,
+    0.0,
+    0.0
+   ],
+   "blending": 55.0
+  },
+  "calibration": {
+   "shadow_tint": 0.0,
+   "red_hue": 0.0,
+   "red_sat": 0.0,
+   "green_hue": 0.0,
+   "green_sat": 0.0,
+   "blue_hue": 0.0,
+   "blue_sat": 0.0
+  },
+  "curves": {
+   "master": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     48.0,
+     46.0
+    ],
+    [
+     128.0,
+     118.0
+    ],
+    [
+     196.0,
+     190.0
+    ],
+    [
+     255.0,
+     246.0
+    ]
+   ],
+   "red": [
+    [
+     0.0,
+     2.0
+    ],
+    [
+     68.0,
+     70.0
+    ],
+    [
+     160.0,
+     162.0
+    ],
+    [
+     255.0,
+     252.0
+    ]
+   ],
+   "green": [
+    [
+     0.0,
+     1.0
+    ],
+    [
+     72.0,
+     72.0
+    ],
+    [
+     168.0,
+     167.0
+    ],
+    [
+     255.0,
+     253.0
+    ]
+   ],
+   "blue": [
+    [
+     0.0,
+     3.0
+    ],
+    [
+     60.0,
+     58.0
+    ],
+    [
+     140.0,
+     140.0
+    ],
+    [
+     208.0,
+     208.0
+    ],
+    [
+     255.0,
+     250.0
+    ]
+   ]
+  },
+  "point_colors": [],
+  "grain": 0.0,
+  "vignette": -8.0
+ },
+ {
+  "file": "Cool Slide.xmp",
+  "name": "Cool Slide",
+  "group": "Film Inspired",
+  "monochrome": false,
+  "wb": {
+   "temperature": -3.0,
+   "tint": -3.0,
+   "mode": "Custom"
+  },
+  "basic": {
+   "Exposure2012": 0.0,
+   "Contrast2012": 0.0,
+   "Highlights2012": 0.0,
+   "Shadows2012": 0.0,
+   "Whites2012": 0.0,
+   "Blacks2012": 0.0,
+   "Texture": 0.0,
+   "Clarity2012": 0.0,
+   "Dehaze": 0.0,
+   "Vibrance": 0.0,
+   "Saturation": 0.0
+  },
+  "hsl": {
+   "hue": {
+    "Red": 12.0,
+    "Orange": -11.0,
+    "Yellow": -18.0,
+    "Green": 7.0,
+    "Aqua": 0.0,
+    "Blue": -3.0,
+    "Purple": 0.0,
+    "Magenta": 0.0
+   },
+   "sat": {
+    "Red": 26.0,
+    "Orange": 0.0,
+    "Yellow": 3.0,
+    "Green": -31.0,
+    "Aqua": -1.0,
+    "Blue": -4.0,
+    "Purple": 0.0,
+    "Magenta": 0.0
+   },
+   "lum": {
+    "Red": 7.0,
+    "Orange": 4.0,
+    "Yellow": 0.0,
+    "Green": -7.0,
+    "Aqua": 4.0,
+    "Blue": -3.0,
+    "Purple": 0.0,
+    "Magenta": 0.0
+   }
+  },
+  "gray_mixer": {
+   "Red": 0.0,
+   "Orange": 0.0,
+   "Yellow": 0.0,
+   "Green": 0.0,
+   "Aqua": 0.0,
+   "Blue": 0.0,
+   "Purple": 0.0,
+   "Magenta": 0.0
+  },
+  "split": {
+   "shadow_hue": 241.0,
+   "shadow_sat": 9.0,
+   "highlight_hue": 254.0,
+   "highlight_sat": 5.0,
+   "balance": 0.0
+  },
+  "grade": {
+   "shadow": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "midtone": [
+    178.0,
+    4.0,
+    0.0
+   ],
+   "highlight": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "global": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "blending": 50.0
+  },
+  "calibration": {
+   "shadow_tint": 0.0,
+   "red_hue": 0.0,
+   "red_sat": 0.0,
+   "green_hue": 0.0,
+   "green_sat": 0.0,
+   "blue_hue": 0.0,
+   "blue_sat": 0.0
+  },
+  "curves": {
+   "master": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     199.0,
+     201.0
+    ],
+    [
+     249.0,
+     246.0
+    ],
+    [
+     255.0,
+     250.0
+    ]
+   ],
+   "red": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ],
+   "green": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ],
+   "blue": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ]
+  },
+  "point_colors": [
+   [
+    0.833271,
+    0.148218,
+    0.923418,
+    0.0,
+    0.0,
+    0.0,
+    0.5,
+    0.0,
+    0.333333,
+    0.666667,
+    1.0,
+    0.0,
+    0.0,
+    0.328218,
+    0.878218,
+    0.235552,
+    0.785552,
+    1.0,
+    1.0
+   ],
+   [
+    0.826957,
+    0.324687,
+    0.645541,
+    -0.041525,
+    -0.025,
+    0.0,
+    0.5,
+    0.0,
+    0.333333,
+    0.666667,
+    1.0,
+    0.0,
+    0.144687,
+    0.504687,
+    1.0,
+    0.094132,
+    0.644132,
+    1.0,
+    1.0
+   ]
+  ],
+  "grain": 0.28,
+  "vignette": 0.0
+ },
+ {
+  "file": "Golden.xmp",
+  "name": "Golden",
+  "group": "Film Inspired",
+  "monochrome": false,
+  "wb": {
+   "temperature": 10.0,
+   "tint": 7.0,
+   "mode": "Custom"
+  },
+  "basic": {
+   "Exposure2012": 0.0,
+   "Contrast2012": 0.0,
+   "Highlights2012": 0.0,
+   "Shadows2012": 0.0,
+   "Whites2012": 0.0,
+   "Blacks2012": 0.0,
+   "Texture": 0.0,
+   "Clarity2012": 0.0,
+   "Dehaze": 0.0,
+   "Vibrance": 0.0,
+   "Saturation": 0.0
+  },
+  "hsl": {
+   "hue": {
+    "Red": 18.0,
+    "Orange": -2.0,
+    "Yellow": 3.0,
+    "Green": 15.0,
+    "Aqua": 1.0,
+    "Blue": -8.0,
+    "Purple": 4.0,
+    "Magenta": 0.0
+   },
+   "sat": {
+    "Red": 9.0,
+    "Orange": 6.0,
+    "Yellow": 9.0,
+    "Green": -18.0,
+    "Aqua": 13.0,
+    "Blue": 13.0,
+    "Purple": 0.0,
+    "Magenta": 0.0
+   },
+   "lum": {
+    "Red": 24.0,
+    "Orange": -9.0,
+    "Yellow": -8.0,
+    "Green": -33.0,
+    "Aqua": 1.0,
+    "Blue": 10.0,
+    "Purple": 3.0,
+    "Magenta": 0.0
+   }
+  },
+  "gray_mixer": {
+   "Red": 0.0,
+   "Orange": 0.0,
+   "Yellow": 0.0,
+   "Green": 0.0,
+   "Aqua": 0.0,
+   "Blue": 0.0,
+   "Purple": 0.0,
+   "Magenta": 0.0
+  },
+  "split": {
+   "shadow_hue": 0.0,
+   "shadow_sat": 0.0,
+   "highlight_hue": 207.0,
+   "highlight_sat": 10.0,
+   "balance": 0.0
+  },
+  "grade": {
+   "shadow": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "midtone": [
+    40.0,
+    12.0,
+    0.0
+   ],
+   "highlight": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "global": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "blending": 50.0
+  },
+  "calibration": {
+   "shadow_tint": 0.0,
+   "red_hue": 0.0,
+   "red_sat": 0.0,
+   "green_hue": 0.0,
+   "green_sat": 0.0,
+   "blue_hue": 0.0,
+   "blue_sat": 0.0
+  },
+  "curves": {
+   "master": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     212.0,
+     206.0
+    ],
+    [
+     255.0,
+     243.0
+    ]
+   ],
+   "red": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ],
+   "green": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ],
+   "blue": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ]
+  },
+  "point_colors": [
+   [
+    0.587066,
+    0.708681,
+    0.494594,
+    0.029246,
+    0.0,
+    0.0,
+    0.5,
+    0.0,
+    0.333333,
+    0.666667,
+    1.0,
+    0.0,
+    0.528681,
+    0.888681,
+    1.0,
+    0.001785,
+    0.551785,
+    0.911785,
+    1.0
+   ],
+   [
+    1.13587,
+    0.587171,
+    0.102548,
+    -0.126031,
+    0.061233,
+    0.0,
+    0.5,
+    0.0,
+    0.333333,
+    0.666667,
+    1.0,
+    0.0,
+    0.407171,
+    0.767171,
+    1.0,
+    0.0,
+    0.17345,
+    0.53345,
+    1.0
+   ],
+   [
+    1.0992,
+    0.829143,
+    0.547456,
+    0.192737,
+    -0.088042,
+    0.0,
+    0.5,
+    0.0,
+    0.333333,
+    0.666667,
+    1.0,
+    0.099143,
+    0.649143,
+    1.0,
+    1.0,
+    0.035789,
+    0.585789,
+    0.945789,
+    1.0
+   ],
+   [
+    1.03119,
+    0.726636,
+    0.569526,
+    0.039909,
+    0.0,
+    0.0,
+    0.5,
+    0.0,
+    0.333333,
+    0.666667,
+    1.0,
+    0.0,
+    0.546636,
+    0.906636,
+    1.0,
+    0.049417,
+    0.599417,
+    0.959417,
+    1.0
+   ]
+  ],
+  "grain": 0.37,
+  "vignette": 0.0
+ },
+ {
+  "file": "Green Accent.xmp",
+  "name": "Green Accent",
+  "group": "Film Inspired",
+  "monochrome": false,
+  "wb": {
+   "temperature": 8.0,
+   "tint": 6.0,
+   "mode": "Custom"
+  },
+  "basic": {
+   "Exposure2012": 0.0,
+   "Contrast2012": 0.0,
+   "Highlights2012": 0.0,
+   "Shadows2012": 0.0,
+   "Whites2012": 0.0,
+   "Blacks2012": 0.0,
+   "Texture": 0.0,
+   "Clarity2012": 0.0,
+   "Dehaze": 0.0,
+   "Vibrance": 0.0,
+   "Saturation": 0.0
+  },
+  "hsl": {
+   "hue": {
+    "Red": 0.0,
+    "Orange": -20.0,
+    "Yellow": -4.0,
+    "Green": 10.0,
+    "Aqua": 4.0,
+    "Blue": 4.0,
+    "Purple": 4.0,
+    "Magenta": 0.0
+   },
+   "sat": {
+    "Red": -2.0,
+    "Orange": -9.0,
+    "Yellow": -10.0,
+    "Green": -6.0,
+    "Aqua": 12.0,
+    "Blue": 3.0,
+    "Purple": 0.0,
+    "Magenta": 0.0
+   },
+   "lum": {
+    "Red": 0.0,
+    "Orange": -14.0,
+    "Yellow": 2.0,
+    "Green": -33.0,
+    "Aqua": 1.0,
+    "Blue": -6.0,
+    "Purple": 3.0,
+    "Magenta": 0.0
+   }
+  },
+  "gray_mixer": {
+   "Red": 0.0,
+   "Orange": 0.0,
+   "Yellow": 0.0,
+   "Green": 0.0,
+   "Aqua": 0.0,
+   "Blue": 0.0,
+   "Purple": 0.0,
+   "Magenta": 0.0
+  },
+  "split": {
+   "shadow_hue": 135.0,
+   "shadow_sat": 13.0,
+   "highlight_hue": 20.0,
+   "highlight_sat": 0.0,
+   "balance": 0.0
+  },
+  "grade": {
+   "shadow": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "midtone": [
+    330.0,
+    0.0,
+    0.0
+   ],
+   "highlight": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "global": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "blending": 50.0
+  },
+  "calibration": {
+   "shadow_tint": 0.0,
+   "red_hue": 0.0,
+   "red_sat": 0.0,
+   "green_hue": 0.0,
+   "green_sat": 0.0,
+   "blue_hue": 0.0,
+   "blue_sat": 0.0
+  },
+  "curves": {
+   "master": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     212.0,
+     206.0
+    ],
+    [
+     255.0,
+     243.0
+    ]
+   ],
+   "red": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ],
+   "green": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ],
+   "blue": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ]
+  },
+  "point_colors": [
+   [
+    0.816866,
+    0.853328,
+    0.526199,
+    0.148524,
+    -0.019231,
+    0.100579,
+    0.5,
+    0.0,
+    0.333333,
+    0.666667,
+    1.0,
+    0.123328,
+    0.673328,
+    1.0,
+    1.0,
+    0.022356,
+    0.572356,
+    0.932356,
+    1.0
+   ]
+  ],
+  "grain": 0.26,
+  "vignette": 0.0
+ },
+ {
+  "file": "Green Ray 1986.xmp",
+  "name": "Green Ray 1986",
+  "group": "Cinema",
+  "monochrome": false,
+  "wb": {
+   "temperature": 4.0,
+   "tint": 0.0,
+   "mode": "Custom"
+  },
+  "basic": {
+   "Exposure2012": 0.0,
+   "Contrast2012": 0.0,
+   "Highlights2012": -2.0,
+   "Shadows2012": 4.0,
+   "Whites2012": 2.0,
+   "Blacks2012": 0.0,
+   "Texture": -14.0,
+   "Clarity2012": -6.0,
+   "Dehaze": -5.0,
+   "Vibrance": -2.0,
+   "Saturation": 0.0
+  },
+  "hsl": {
+   "hue": {
+    "Red": 0.0,
+    "Orange": -2.0,
+    "Yellow": 12.0,
+    "Green": 10.0,
+    "Aqua": 0.0,
+    "Blue": -6.0,
+    "Purple": 0.0,
+    "Magenta": 0.0
+   },
+   "sat": {
+    "Red": 14.0,
+    "Orange": 16.0,
+    "Yellow": -16.0,
+    "Green": 14.0,
+    "Aqua": 10.0,
+    "Blue": 10.0,
+    "Purple": -10.0,
+    "Magenta": -8.0
+   },
+   "lum": {
+    "Red": -5.0,
+    "Orange": -1.0,
+    "Yellow": 8.0,
+    "Green": -5.0,
+    "Aqua": 5.0,
+    "Blue": -8.0,
+    "Purple": 2.0,
+    "Magenta": 4.0
+   }
+  },
+  "gray_mixer": {
+   "Red": 0.0,
+   "Orange": 0.0,
+   "Yellow": 0.0,
+   "Green": 0.0,
+   "Aqua": 0.0,
+   "Blue": 0.0,
+   "Purple": 0.0,
+   "Magenta": 0.0
+  },
+  "split": {
+   "shadow_hue": 0.0,
+   "shadow_sat": 0.0,
+   "highlight_hue": 0.0,
+   "highlight_sat": 0.0,
+   "balance": 15.0
+  },
+  "grade": {
+   "shadow": [
+    38.0,
+    5.0,
+    -2.0
+   ],
+   "midtone": [
+    40.0,
+    6.0,
+    0.0
+   ],
+   "highlight": [
+    44.0,
+    12.0,
+    0.0
+   ],
+   "global": [
+    50.0,
+    0.0,
+    0.0
+   ],
+   "blending": 50.0
+  },
+  "calibration": {
+   "shadow_tint": 0.0,
+   "red_hue": 0.0,
+   "red_sat": 0.0,
+   "green_hue": 0.0,
+   "green_sat": 0.0,
+   "blue_hue": 0.0,
+   "blue_sat": 0.0
+  },
+  "curves": {
+   "master": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     32.0,
+     23.0
+    ],
+    [
+     64.0,
+     51.0
+    ],
+    [
+     128.0,
+     120.0
+    ],
+    [
+     192.0,
+     191.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ],
+   "red": [
+    [
+     0.0,
+     2.0
+    ],
+    [
+     96.0,
+     100.0
+    ],
+    [
+     176.0,
+     178.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ],
+   "green": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     128.0,
+     131.0
+    ],
+    [
+     200.0,
+     203.0
+    ],
+    [
+     255.0,
+     254.0
+    ]
+   ],
+   "blue": [
+    [
+     0.0,
+     3.0
+    ],
+    [
+     64.0,
+     62.0
+    ],
+    [
+     140.0,
+     134.0
+    ],
+    [
+     210.0,
+     203.0
+    ],
+    [
+     255.0,
+     248.0
+    ]
+   ]
+  },
+  "point_colors": [],
+  "grain": 0.0,
+  "vignette": -6.0
+ },
+ {
+  "file": "Hero 2002.xmp",
+  "name": "Hero 2002",
+  "group": "Cinema",
+  "monochrome": false,
+  "wb": {
+   "temperature": 3.0,
+   "tint": 2.0,
+   "mode": "Custom"
+  },
+  "basic": {
+   "Exposure2012": 0.0,
+   "Contrast2012": 0.0,
+   "Highlights2012": -12.0,
+   "Shadows2012": 0.0,
+   "Whites2012": -6.0,
+   "Blacks2012": 0.0,
+   "Texture": 5.0,
+   "Clarity2012": 8.0,
+   "Dehaze": 6.0,
+   "Vibrance": 15.0,
+   "Saturation": 18.0
+  },
+  "hsl": {
+   "hue": {
+    "Red": 0.0,
+    "Orange": -4.0,
+    "Yellow": -6.0,
+    "Green": 8.0,
+    "Aqua": 0.0,
+    "Blue": 0.0,
+    "Purple": 0.0,
+    "Magenta": 0.0
+   },
+   "sat": {
+    "Red": 34.0,
+    "Orange": 18.0,
+    "Yellow": 4.0,
+    "Green": 14.0,
+    "Aqua": 8.0,
+    "Blue": 32.0,
+    "Purple": -8.0,
+    "Magenta": 20.0
+   },
+   "lum": {
+    "Red": -8.0,
+    "Orange": 2.0,
+    "Yellow": -10.0,
+    "Green": 6.0,
+    "Aqua": 8.0,
+    "Blue": 2.0,
+    "Purple": 4.0,
+    "Magenta": -4.0
+   }
+  },
+  "gray_mixer": {
+   "Red": 0.0,
+   "Orange": 0.0,
+   "Yellow": 0.0,
+   "Green": 0.0,
+   "Aqua": 0.0,
+   "Blue": 0.0,
+   "Purple": 0.0,
+   "Magenta": 0.0
+  },
+  "split": {
+   "shadow_hue": 0.0,
+   "shadow_sat": 0.0,
+   "highlight_hue": 0.0,
+   "highlight_sat": 0.0,
+   "balance": 10.0
+  },
+  "grade": {
+   "shadow": [
+    18.0,
+    5.0,
+    -2.0
+   ],
+   "midtone": [
+    34.0,
+    6.0,
+    0.0
+   ],
+   "highlight": [
+    40.0,
+    6.0,
+    0.0
+   ],
+   "global": [
+    30.0,
+    0.0,
+    0.0
+   ],
+   "blending": 50.0
+  },
+  "calibration": {
+   "shadow_tint": 0.0,
+   "red_hue": 0.0,
+   "red_sat": 0.0,
+   "green_hue": 0.0,
+   "green_sat": 0.0,
+   "blue_hue": 0.0,
+   "blue_sat": 0.0
+  },
+  "curves": {
+   "master": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     32.0,
+     20.0
+    ],
+    [
+     64.0,
+     51.0
+    ],
+    [
+     128.0,
+     123.0
+    ],
+    [
+     192.0,
+     198.0
+    ],
+    [
+     255.0,
+     250.0
+    ]
+   ],
+   "red": [
+    [
+     0.0,
+     2.0
+    ],
+    [
+     64.0,
+     66.0
+    ],
+    [
+     160.0,
+     162.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ],
+   "green": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     64.0,
+     62.0
+    ],
+    [
+     160.0,
+     160.0
+    ],
+    [
+     220.0,
+     220.0
+    ],
+    [
+     255.0,
+     254.0
+    ]
+   ],
+   "blue": [
+    [
+     0.0,
+     2.0
+    ],
+    [
+     40.0,
+     38.0
+    ],
+    [
+     128.0,
+     128.0
+    ],
+    [
+     210.0,
+     208.0
+    ],
+    [
+     255.0,
+     250.0
+    ]
+   ]
+  },
+  "point_colors": [],
+  "grain": 0.0,
+  "vignette": -12.0
+ },
+ {
+  "file": "Mono Tone.xmp",
+  "name": "Mono Tone",
+  "group": "Monochrome",
+  "monochrome": true,
+  "wb": {
+   "temperature": -5.0,
+   "tint": -5.0,
+   "mode": "Custom"
+  },
+  "basic": {
+   "Exposure2012": 0.0,
+   "Contrast2012": 0.0,
+   "Highlights2012": 0.0,
+   "Shadows2012": 0.0,
+   "Whites2012": 0.0,
+   "Blacks2012": 0.0,
+   "Texture": -7.0,
+   "Clarity2012": 0.0,
+   "Dehaze": 0.0,
+   "Vibrance": 5.0,
+   "Saturation": 0.0
+  },
+  "hsl": {
+   "hue": {
+    "Red": 0.0,
+    "Orange": 0.0,
+    "Yellow": 0.0,
+    "Green": 0.0,
+    "Aqua": 0.0,
+    "Blue": 0.0,
+    "Purple": 0.0,
+    "Magenta": 0.0
+   },
+   "sat": {
+    "Red": 0.0,
+    "Orange": 0.0,
+    "Yellow": 0.0,
+    "Green": 0.0,
+    "Aqua": 0.0,
+    "Blue": 0.0,
+    "Purple": 0.0,
+    "Magenta": 0.0
+   },
+   "lum": {
+    "Red": 0.0,
+    "Orange": 0.0,
+    "Yellow": 0.0,
+    "Green": 0.0,
+    "Aqua": 0.0,
+    "Blue": 0.0,
+    "Purple": 0.0,
+    "Magenta": 0.0
+   }
+  },
+  "gray_mixer": {
+   "Red": 12.0,
+   "Orange": 20.0,
+   "Yellow": 16.0,
+   "Green": -6.0,
+   "Aqua": -18.0,
+   "Blue": -26.0,
+   "Purple": -18.0,
+   "Magenta": -4.0
+  },
+  "split": {
+   "shadow_hue": 0.0,
+   "shadow_sat": 0.0,
+   "highlight_hue": 0.0,
+   "highlight_sat": 0.0,
+   "balance": 0.0
+  },
+  "grade": {
+   "shadow": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "midtone": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "highlight": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "global": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "blending": 50.0
+  },
+  "calibration": {
+   "shadow_tint": 0.0,
+   "red_hue": 0.0,
+   "red_sat": 0.0,
+   "green_hue": 0.0,
+   "green_sat": 0.0,
+   "blue_hue": 0.0,
+   "blue_sat": 0.0
+  },
+  "curves": {
+   "master": [
+    [
+     0.0,
+     9.0
+    ],
+    [
+     40.0,
+     40.0
+    ],
+    [
+     128.0,
+     134.0
+    ],
+    [
+     205.0,
+     206.0
+    ],
+    [
+     255.0,
+     241.0
+    ]
+   ],
+   "red": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ],
+   "green": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ],
+   "blue": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ]
+  },
+  "point_colors": [],
+  "grain": 0.0,
+  "vignette": 0.0
+ },
+ {
+  "file": "Natural.xmp",
+  "name": "Natural",
+  "group": "Film Inspired",
+  "monochrome": false,
+  "wb": {
+   "temperature": -5.0,
+   "tint": -5.0,
+   "mode": "Custom"
+  },
+  "basic": {
+   "Exposure2012": 0.0,
+   "Contrast2012": 0.0,
+   "Highlights2012": 0.0,
+   "Shadows2012": 0.0,
+   "Whites2012": 0.0,
+   "Blacks2012": 0.0,
+   "Texture": -7.0,
+   "Clarity2012": 0.0,
+   "Dehaze": 0.0,
+   "Vibrance": 5.0,
+   "Saturation": 0.0
+  },
+  "hsl": {
+   "hue": {
+    "Red": -7.0,
+    "Orange": -8.0,
+    "Yellow": 6.0,
+    "Green": 10.0,
+    "Aqua": 4.0,
+    "Blue": -19.0,
+    "Purple": 69.0,
+    "Magenta": 68.0
+   },
+   "sat": {
+    "Red": 44.0,
+    "Orange": 4.0,
+    "Yellow": -23.0,
+    "Green": -13.0,
+    "Aqua": 1.0,
+    "Blue": 27.0,
+    "Purple": 0.0,
+    "Magenta": 26.0
+   },
+   "lum": {
+    "Red": 8.0,
+    "Orange": 8.0,
+    "Yellow": -11.0,
+    "Green": 0.0,
+    "Aqua": 0.0,
+    "Blue": 20.0,
+    "Purple": 2.0,
+    "Magenta": 5.0
+   }
+  },
+  "gray_mixer": {
+   "Red": 0.0,
+   "Orange": 0.0,
+   "Yellow": 0.0,
+   "Green": 0.0,
+   "Aqua": 0.0,
+   "Blue": 0.0,
+   "Purple": 0.0,
+   "Magenta": 0.0
+  },
+  "split": {
+   "shadow_hue": 1.0,
+   "shadow_sat": 9.0,
+   "highlight_hue": 61.0,
+   "highlight_sat": 5.0,
+   "balance": 0.0
+  },
+  "grade": {
+   "shadow": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "midtone": [
+    341.0,
+    0.0,
+    0.0
+   ],
+   "highlight": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "global": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "blending": 50.0
+  },
+  "calibration": {
+   "shadow_tint": 0.0,
+   "red_hue": 0.0,
+   "red_sat": 0.0,
+   "green_hue": 0.0,
+   "green_sat": 0.0,
+   "blue_hue": 0.0,
+   "blue_sat": 0.0
+  },
+  "curves": {
+   "master": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     210.0,
+     203.0
+    ],
+    [
+     255.0,
+     236.0
+    ]
+   ],
+   "red": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ],
+   "green": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ],
+   "blue": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ]
+  },
+  "point_colors": [
+   [
+    0.833271,
+    0.148218,
+    0.923418,
+    0.0,
+    0.0,
+    0.0,
+    0.5,
+    0.0,
+    0.333333,
+    0.666667,
+    1.0,
+    0.0,
+    0.0,
+    0.328218,
+    0.878218,
+    0.235552,
+    0.785552,
+    1.0,
+    1.0
+   ]
+  ],
+  "grain": 0.3,
+  "vignette": 0.0
+ },
+ {
+  "file": "Pierrot le Fou.xmp",
+  "name": "Pierrot le Fou",
+  "group": "Cinema",
+  "monochrome": false,
+  "wb": {
+   "temperature": 3.0,
+   "tint": 0.0,
+   "mode": "Custom"
+  },
+  "basic": {
+   "Exposure2012": 0.0,
+   "Contrast2012": 5.0,
+   "Highlights2012": -8.0,
+   "Shadows2012": 4.0,
+   "Whites2012": -2.0,
+   "Blacks2012": 0.0,
+   "Texture": -8.0,
+   "Clarity2012": -4.0,
+   "Dehaze": -2.0,
+   "Vibrance": 4.0,
+   "Saturation": 0.0
+  },
+  "hsl": {
+   "hue": {
+    "Red": 0.0,
+    "Orange": -4.0,
+    "Yellow": 0.0,
+    "Green": 4.0,
+    "Aqua": 0.0,
+    "Blue": 6.0,
+    "Purple": 0.0,
+    "Magenta": 0.0
+   },
+   "sat": {
+    "Red": 22.0,
+    "Orange": 12.0,
+    "Yellow": 20.0,
+    "Green": 14.0,
+    "Aqua": 12.0,
+    "Blue": 24.0,
+    "Purple": 0.0,
+    "Magenta": 16.0
+   },
+   "lum": {
+    "Red": -6.0,
+    "Orange": -4.0,
+    "Yellow": 2.0,
+    "Green": 8.0,
+    "Aqua": 6.0,
+    "Blue": 8.0,
+    "Purple": -6.0,
+    "Magenta": -8.0
+   }
+  },
+  "gray_mixer": {
+   "Red": 0.0,
+   "Orange": 0.0,
+   "Yellow": 0.0,
+   "Green": 0.0,
+   "Aqua": 0.0,
+   "Blue": 0.0,
+   "Purple": 0.0,
+   "Magenta": 0.0
+  },
+  "split": {
+   "shadow_hue": 0.0,
+   "shadow_sat": 0.0,
+   "highlight_hue": 0.0,
+   "highlight_sat": 0.0,
+   "balance": 10.0
+  },
+  "grade": {
+   "shadow": [
+    30.0,
+    5.0,
+    2.0
+   ],
+   "midtone": [
+    35.0,
+    3.0,
+    0.0
+   ],
+   "highlight": [
+    60.0,
+    3.0,
+    0.0
+   ],
+   "global": [
+    40.0,
+    0.0,
+    0.0
+   ],
+   "blending": 50.0
+  },
+  "calibration": {
+   "shadow_tint": 0.0,
+   "red_hue": 0.0,
+   "red_sat": 0.0,
+   "green_hue": 0.0,
+   "green_sat": 0.0,
+   "blue_hue": 0.0,
+   "blue_sat": 0.0
+  },
+  "curves": {
+   "master": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     64.0,
+     50.0
+    ],
+    [
+     128.0,
+     124.0
+    ],
+    [
+     200.0,
+     203.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ],
+   "red": [
+    [
+     0.0,
+     4.0
+    ],
+    [
+     128.0,
+     130.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ],
+   "green": [
+    [
+     0.0,
+     2.0
+    ],
+    [
+     128.0,
+     129.0
+    ],
+    [
+     220.0,
+     222.0
+    ],
+    [
+     255.0,
+     254.0
+    ]
+   ],
+   "blue": [
+    [
+     0.0,
+     3.0
+    ],
+    [
+     128.0,
+     126.0
+    ],
+    [
+     210.0,
+     206.0
+    ],
+    [
+     255.0,
+     247.0
+    ]
+   ]
+  },
+  "point_colors": [],
+  "grain": 0.0,
+  "vignette": -8.0
+ },
+ {
+  "file": "Tungsten.xmp",
+  "name": "Tungsten",
+  "group": "Film Inspired",
+  "monochrome": false,
+  "wb": {
+   "temperature": -14.0,
+   "tint": 1.0,
+   "mode": "Custom"
+  },
+  "basic": {
+   "Exposure2012": 0.0,
+   "Contrast2012": 0.0,
+   "Highlights2012": 0.0,
+   "Shadows2012": 0.0,
+   "Whites2012": 0.0,
+   "Blacks2012": 0.0,
+   "Texture": -16.0,
+   "Clarity2012": 0.0,
+   "Dehaze": 0.0,
+   "Vibrance": 0.0,
+   "Saturation": 0.0
+  },
+  "hsl": {
+   "hue": {
+    "Red": 28.0,
+    "Orange": 42.0,
+    "Yellow": 29.0,
+    "Green": 4.0,
+    "Aqua": 41.0,
+    "Blue": 3.0,
+    "Purple": -15.0,
+    "Magenta": 19.0
+   },
+   "sat": {
+    "Red": 31.0,
+    "Orange": 13.0,
+    "Yellow": 36.0,
+    "Green": -6.0,
+    "Aqua": 26.0,
+    "Blue": -6.0,
+    "Purple": -7.0,
+    "Magenta": -5.0
+   },
+   "lum": {
+    "Red": -3.0,
+    "Orange": -3.0,
+    "Yellow": 30.0,
+    "Green": -12.0,
+    "Aqua": 0.0,
+    "Blue": -9.0,
+    "Purple": -2.0,
+    "Magenta": -1.0
+   }
+  },
+  "gray_mixer": {
+   "Red": 0.0,
+   "Orange": 0.0,
+   "Yellow": 0.0,
+   "Green": 0.0,
+   "Aqua": 0.0,
+   "Blue": 0.0,
+   "Purple": 0.0,
+   "Magenta": 0.0
+  },
+  "split": {
+   "shadow_hue": 205.0,
+   "shadow_sat": 30.0,
+   "highlight_hue": 35.0,
+   "highlight_sat": 19.0,
+   "balance": 0.0
+  },
+  "grade": {
+   "shadow": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "midtone": [
+    249.0,
+    17.0,
+    0.0
+   ],
+   "highlight": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "global": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "blending": 50.0
+  },
+  "calibration": {
+   "shadow_tint": 0.0,
+   "red_hue": 0.0,
+   "red_sat": 0.0,
+   "green_hue": 0.0,
+   "green_sat": 0.0,
+   "blue_hue": 0.0,
+   "blue_sat": 0.0
+  },
+  "curves": {
+   "master": [
+    [
+     0.0,
+     12.0
+    ],
+    [
+     65.0,
+     65.0
+    ],
+    [
+     201.0,
+     196.0
+    ],
+    [
+     255.0,
+     238.0
+    ]
+   ],
+   "red": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ],
+   "green": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     31.0,
+     19.0
+    ],
+    [
+     81.0,
+     79.0
+    ],
+    [
+     135.0,
+     135.0
+    ],
+    [
+     201.0,
+     201.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ],
+   "blue": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ]
+  },
+  "point_colors": [
+   [
+    0.833271,
+    0.148218,
+    0.923418,
+    0.0,
+    0.0,
+    0.0,
+    0.5,
+    0.0,
+    0.333333,
+    0.666667,
+    1.0,
+    0.0,
+    0.0,
+    0.328218,
+    0.878218,
+    0.235552,
+    0.785552,
+    1.0,
+    1.0
+   ]
+  ],
+  "grain": 0.37,
+  "vignette": 0.0
+ },
+ {
+  "file": "Vivid Daylight.xmp",
+  "name": "Vivid Daylight",
+  "group": "Film Inspired",
+  "monochrome": false,
+  "wb": {
+   "temperature": 0.0,
+   "tint": 0.0,
+   "mode": "Custom"
+  },
+  "basic": {
+   "Exposure2012": 0.0,
+   "Contrast2012": 0.0,
+   "Highlights2012": 0.0,
+   "Shadows2012": 0.0,
+   "Whites2012": 0.0,
+   "Blacks2012": 0.0,
+   "Texture": 0.0,
+   "Clarity2012": 0.0,
+   "Dehaze": 0.0,
+   "Vibrance": 0.0,
+   "Saturation": 0.0
+  },
+  "hsl": {
+   "hue": {
+    "Red": 10.0,
+    "Orange": -6.0,
+    "Yellow": -8.0,
+    "Green": 38.0,
+    "Aqua": 0.0,
+    "Blue": -9.0,
+    "Purple": 4.0,
+    "Magenta": 0.0
+   },
+   "sat": {
+    "Red": 9.0,
+    "Orange": 15.0,
+    "Yellow": 35.0,
+    "Green": -18.0,
+    "Aqua": 14.0,
+    "Blue": 27.0,
+    "Purple": 0.0,
+    "Magenta": 0.0
+   },
+   "lum": {
+    "Red": -18.0,
+    "Orange": -4.0,
+    "Yellow": 11.0,
+    "Green": -33.0,
+    "Aqua": -9.0,
+    "Blue": -6.0,
+    "Purple": 3.0,
+    "Magenta": 0.0
+   }
+  },
+  "gray_mixer": {
+   "Red": 0.0,
+   "Orange": 0.0,
+   "Yellow": 0.0,
+   "Green": 0.0,
+   "Aqua": 0.0,
+   "Blue": 0.0,
+   "Purple": 0.0,
+   "Magenta": 0.0
+  },
+  "split": {
+   "shadow_hue": 0.0,
+   "shadow_sat": 0.0,
+   "highlight_hue": 0.0,
+   "highlight_sat": 0.0,
+   "balance": 0.0
+  },
+  "grade": {
+   "shadow": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "midtone": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "highlight": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "global": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "blending": 50.0
+  },
+  "calibration": {
+   "shadow_tint": 0.0,
+   "red_hue": 0.0,
+   "red_sat": 0.0,
+   "green_hue": 0.0,
+   "green_sat": 0.0,
+   "blue_hue": 0.0,
+   "blue_sat": 0.0
+  },
+  "curves": {
+   "master": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     212.0,
+     206.0
+    ],
+    [
+     255.0,
+     243.0
+    ]
+   ],
+   "red": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ],
+   "green": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ],
+   "blue": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     255.0,
+     255.0
+    ]
+   ]
+  },
+  "point_colors": [
+   [
+    0.833271,
+    0.148218,
+    0.923418,
+    0.0,
+    0.0,
+    0.0,
+    0.5,
+    0.0,
+    0.333333,
+    0.666667,
+    1.0,
+    0.0,
+    0.0,
+    0.328218,
+    0.878218,
+    0.235552,
+    0.785552,
+    1.0,
+    1.0
+   ]
+  ],
+  "grain": 0.24,
+  "vignette": 0.0
+ }
+]
