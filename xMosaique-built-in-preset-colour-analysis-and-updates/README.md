@@ -42,6 +42,15 @@ with a luminance range mask.
 To use them, copy the `.xmp` files into your editor's user-presets folder and restart
 it. In xMosaique itself they are already installed.
 
+**There is an easier way to get them.** All eleven are served as ordinary downloads
+from [xmosaique.com/presets](https://xmosaique.com/presets/) — one button per preset,
+plus a single zip of the set. Nothing to clone, no account, and the files come back
+as downloads rather than as a screenful of XML, which is what a link into this
+repository gives you: GitHub serves `.xmp` as `text/plain`, and `?download=1`,
+`?raw=1` and the `/raw/` path all end at the same header. The copies there are these
+files verbatim. This folder stays the source of record, and the place to read how
+they were measured.
+
 **Note on portability.** The values were designed and measured against my own
 rendering engine, and several `crs:` parameters have deliberately different response
 curves there than in Lightroom, most notably the shadow/black sliders, which bite

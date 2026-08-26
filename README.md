@@ -58,7 +58,10 @@ resulting hue rotation, saturation and tonal response off a colour wheel, then
 revises seven of them against those measurements. Includes **all eleven
 ready-to-download presets** (`presets/*.xmp`) and the harness that produced every
 figure (`analysis/`), with the measured data committed so the plots re-run without
-building the rendering engine. Independent work, not affiliated with Adobe Inc.;
+building the rendering engine. The same eleven files are served as one-click
+downloads, individually and as a zip, from
+[xmosaique.com/presets](https://xmosaique.com/presets/) — easier than cloning, and
+an actual download rather than the `text/plain` GitHub serves a `.xmp` as. Independent work, not affiliated with Adobe Inc.;
 the film-inspired presets are original interpretations and name no manufacturer's
 product. See the folder's README for the full disclaimer.
 
