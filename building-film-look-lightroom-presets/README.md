@@ -35,6 +35,13 @@ differences if you want to adapt the values.
 To use them, copy the `.xmp` files into your editor's user-presets folder and
 restart it.
 
+All four also ship inside [xMosaique](https://xmosaique.com), in the revised form
+the later folder describes, and are downloadable one click at a time from
+[xmosaique.com/presets](https://xmosaique.com/presets/) — a plain download rather
+than the `text/plain` GitHub answers a link to a `.xmp` with. Take the versions
+here if you want the ones this post measured; take the site's if you want what the
+app ships today.
+
 ### `make_proxy.py` — build neutral proxies from graded stills
 
 The measurement harness in the post needs images resembling what a *neutral
